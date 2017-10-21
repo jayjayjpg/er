@@ -1,29 +1,17 @@
 {
-  "name": "ember-source",
-  "version": "2.17.0-alpha.1",
+  "name": "er",
+  "version": "0.0.1",
   "description": "A JavaScript framework for creating ambitious web applications",
   "keywords": [
     "ember-addon"
   ],
-  "homepage": "https://emberjs.com/",
-  "bugs": {
-    "url": "https://github.com/emberjs/ember.js/issues"
-  },
   "license": "MIT",
   "files": [
-    "blueprints",
-    "dist",
-    "!dist/ember-tests.prod.js",
-    "!dist/ember-tests.js",
-    "!dist/qunit",
-    "!dist/jquery",
-    "!dist/tests",
-    "vendor/ember",
     "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emberjs/ember.js.git"
+    "url": "git+https://github.com/jessica-jordan/er.git"
   },
   "scripts": {
     "build": "ember build --environment production",
